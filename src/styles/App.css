@@ -1,0 +1,73 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000000;
+  overflow:auto;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.introduction {
+  font-size: 75px;
+  color:white;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.title-name {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  line-height: .75;
+  margin: 10px 0;
+}
+
+.see-work-button {
+  border-style:solid;
+  width: 10%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 15px;
+  font-size: 25px;
+  color:white;
+}
+
+.see-work-button:hover {
+  background-color: red;
+}
+
+#main-nav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 1;
+  height: 65px;
+  width: 100%; /* Full width */
+}
+
+#main-nav .home-logo {
+  max-width: 0;
+  overflow: hidden;
+  color: white;
+  transition: all 0.5s;
+  font-size: 20px;
+}
+
+.fixed-nav #main-nav .home-logo {
+  max-width: 500px;
+}
+
+.fixed-nav #main-nav {
+  position: fixed;
+}
+
+.about-container {
+  height: 2000px;
+  width: 100vw;
+  z-index: 1000000;
+  overflow:auto;
+  margin-top: 7%;
+}
