@@ -1,7 +1,41 @@
+#about {
+    margin-top: 5%;
+  }
+
 .about-page {
+    display: grid;
+    grid-template-areas: 
+    "a a a"
+    "b c c"
+    "b d e"
+    "b f g"
+    "b h h"
+    "b i i";
+    grid-template-rows: 150px 80px 50px 50px 200px 100px;
+    grid-template-columns: 0.4fr 0.3fr 0.3fr;             
+    position: absolute;
+    width: 80%;
+    left: 10%;
+}
+.about-section-title {
+    grid-area: a;
+}
+
+#image {
+    grid-area: b;
+    width: 400px;
+    height: 500px;
+}
+
+.about-information {
+    grid-area: c;
+}
+
+.description {
+    grid-area: h;
     
 }
 
-.about-section-title {
-    text-align: center;
+.contact-information {
+    grid-area: i;
 }

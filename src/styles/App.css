@@ -63,11 +63,3 @@
 .fixed-nav #main-nav {
   position: fixed;
 }
-
-.about-container {
-  height: 2000px;
-  width: 100vw;
-  z-index: 1000000;
-  overflow:auto;
-  margin-top: 7%;
-}

@@ -1,0 +1,36 @@
+.awssld {
+    margin: auto;
+    --slider-height-percentage: 65%;
+    width: 70%;
+    --organic-arrow-thickness: 7px;
+    --organic-arrow-border-radius: 0px;
+    --organic-arrow-height: 49px;
+    --organic-arrow-color: #ff0000;
+    --control-button-width: 7%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #ff0000;
+    --control-bullet-active-color: black;
+    --loader-bar-color: #ff0000;
+    --loader-bar-height: 6px;
+    }
+
+.awssld button:focus {
+    outline: none;
+}
+
+.aws-sld {
+    --cube-animation-duration: 775ms;
+    --cube-animation-perspective: 1800px;
+    --cube-animation-ease-in: cubic-bezier(0.8, 0, 1, 0.8);
+    --cube-animation-ease-out: cubic-bezier(0, 0.2, 0.2, 1);
+    --cube-translateZ-distance: -225px;
+  }
+
+  .awssld__content {
+    background-color: darkgray;
+}
+
+.demo-modal .modal-content .modal-body img {
+    width: 100%;
+}
