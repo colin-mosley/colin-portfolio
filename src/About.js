@@ -14,27 +14,54 @@ const About = () => (
         <img id="image" src={picture} alt="My Picture"/>
         <div className="about-information">
             <h3 className="about-information-title">Software Engineer & Web Developer</h3>
-            <p>
-                Native Texan, engineer and fitness enthusiast that embraces mental and physical challenges.
-            </p>
         </div>
         <div>
-            Degree: BS in Petroleum Engineering
+            <span className="turquoise bold">Degree:</span> BS in Petroleum Engineering
         </div>
         <div>
-            Phone: 469-442-7040
+            <span className="turquoise bold">Phone:</span> 469-442-7040
         </div>
         <div>
-            Email:
+            <span className="turquoise bold">Email:</span>
         </div>
         <div>
-            City: Austin, Texas
+            <span className="turquoise bold">City:</span> Austin, Texas
         </div>
         <p className="description">
             Self-driven engineer with 3+ years of experience working in a fast-paced environment, executing company aligned goals through communication, collaboration, and critical thinking. Previously specializing in oil & gas field operations, I am looking to transition into the technology industry and pursue my passion for solving problems by joining a company that prioritizes client support, critical thinking, and communication to achieve technology goals.
         </p>
+        <div className="skills">
+            <h2 className="turquoise skills-title">Skills</h2>
+            <p className="skills-listed">
+                Ruby on Rails{' '}
+                <span className="turquoise bold">|</span>{' '}
+                Javascript{' '}
+                <span className="turquoise bold">|</span>{' '}
+                React{' '}
+                <span className="turquoise bold">|</span>{' '}
+                Redux{' '}
+                <span className="turquoise bold">|</span>{' '}
+                HTML5{' '}
+                <span className="turquoise bold">|</span>{' '}
+                CSS3{' '}
+                <span className="turquoise bold">|</span>{' '}
+                SQL{' '}
+                <span className="turquoise bold">|</span>{' '}
+                Python{' '}
+                <span className="turquoise bold">|</span>{' '}
+                JWT{' '}
+                <span className="turquoise bold">|</span>{' '}
+                PostgreSQL{' '}
+                <span className="turquoise bold">|</span>{' '}
+                Git/GitHub{' '}
+                <span className="turquoise bold">|</span>{' '}
+                MATLAB{' '}
+                <span className="turquoise bold">|</span>{' '}
+            </p>
+        </div>
         <div className="contact-information">
             <AwesomeButtonSocial
+                className="no-underline"
                 size="large"
                 type='instagram'
                 target='_blank'

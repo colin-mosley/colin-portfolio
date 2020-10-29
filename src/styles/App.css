@@ -3,7 +3,7 @@
   width: 100vw;
   z-index: 1000000;
   overflow:auto;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgb(18, 18, 18);
 }
 
 .introduction {
@@ -40,7 +40,7 @@
 
 #main-nav {
   overflow: hidden;
-  background-color: #333;
+  background: rgb(40, 40, 40);
   position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   z-index: 1;
@@ -62,4 +62,12 @@
 
 .fixed-nav #main-nav {
   position: fixed;
+}
+
+.aws-btn:focus {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bolder;
 }

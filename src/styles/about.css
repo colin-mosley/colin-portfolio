@@ -1,8 +1,10 @@
 #about {
-    margin-top: 5%;
+    background: rgb(18, 18, 18);
+    color:white;
   }
 
-.about-page {
+#about-page {
+    margin-top: 5%;
     display: grid;
     grid-template-areas: 
     "a a a"
@@ -10,21 +12,22 @@
     "b d e"
     "b f g"
     "b h h"
-    "b i i";
-    grid-template-rows: 150px 80px 50px 50px 200px 100px;
+    "b i i"
+    "j j j";
+    grid-template-rows: 150px 75px 50px 50px 200px 75px 150px;
     grid-template-columns: 0.4fr 0.3fr 0.3fr;             
-    position: absolute;
     width: 80%;
-    left: 10%;
+    margin: auto;
 }
 .about-section-title {
+    margin-top: 5%;
     grid-area: a;
 }
 
 #image {
     grid-area: b;
     width: 400px;
-    height: 500px;
+    height: 450px;
 }
 
 .about-information {
@@ -39,3 +42,26 @@
 .contact-information {
     grid-area: i;
 }
+
+.skills {
+    grid-area: j;
+    text-align: center;
+    margin: auto;
+}
+
+.skills-title {
+    font-size: 40px;
+}
+
+.skills-listed {
+    font-size: 21px;
+}
+
+.contact-information a:link {
+    text-decoration: none;
+}
+
+.about-title, .about-information-title, .turquoise {
+    color: turquoise;
+}
+
