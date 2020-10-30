@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/colin-portfolio/static/css/main.4e616ad0.chunk.css",
+    "main.js": "/colin-portfolio/static/js/main.80a12884.chunk.js",
+    "main.js.map": "/colin-portfolio/static/js/main.80a12884.chunk.js.map",
+    "runtime-main.js": "/colin-portfolio/static/js/runtime-main.a68cc70c.js",
+    "runtime-main.js.map": "/colin-portfolio/static/js/runtime-main.a68cc70c.js.map",
+    "static/css/2.41a33b31.chunk.css": "/colin-portfolio/static/css/2.41a33b31.chunk.css",
+    "static/js/2.a4abda97.chunk.js": "/colin-portfolio/static/js/2.a4abda97.chunk.js",
+    "static/js/2.a4abda97.chunk.js.map": "/colin-portfolio/static/js/2.a4abda97.chunk.js.map",
+    "static/js/3.03674064.chunk.js": "/colin-portfolio/static/js/3.03674064.chunk.js",
+    "static/js/3.03674064.chunk.js.map": "/colin-portfolio/static/js/3.03674064.chunk.js.map",
+    "index.html": "/colin-portfolio/index.html",
+    "static/css/2.41a33b31.chunk.css.map": "/colin-portfolio/static/css/2.41a33b31.chunk.css.map",
+    "static/css/main.4e616ad0.chunk.css.map": "/colin-portfolio/static/css/main.4e616ad0.chunk.css.map",
+    "static/js/2.a4abda97.chunk.js.LICENSE.txt": "/colin-portfolio/static/js/2.a4abda97.chunk.js.LICENSE.txt",
+    "static/media/Resume.5ea7bd3c.pdf": "/colin-portfolio/static/media/Resume.5ea7bd3c.pdf",
+    "static/media/casino.24f3e66c.gif": "/colin-portfolio/static/media/casino.24f3e66c.gif",
+    "static/media/casino.f7eeb9d6.png": "/colin-portfolio/static/media/casino.f7eeb9d6.png",
+    "static/media/colin.744318b8.jpeg": "/colin-portfolio/static/media/colin.744318b8.jpeg",
+    "static/media/demolitionnutrition.4ec2b8c0.png": "/colin-portfolio/static/media/demolitionnutrition.4ec2b8c0.png",
+    "static/media/demolitionnutrition.985ff82f.gif": "/colin-portfolio/static/media/demolitionnutrition.985ff82f.gif",
+    "static/media/mazemonkey.1248b542.gif": "/colin-portfolio/static/media/mazemonkey.1248b542.gif",
+    "static/media/mazemonkey.6515072c.png": "/colin-portfolio/static/media/mazemonkey.6515072c.png",
+    "static/media/millionaire.391a96f3.png": "/colin-portfolio/static/media/millionaire.391a96f3.png",
+    "static/media/millionaire.4138a772.gif": "/colin-portfolio/static/media/millionaire.4138a772.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a68cc70c.js",
+    "static/css/2.41a33b31.chunk.css",
+    "static/js/2.a4abda97.chunk.js",
+    "static/css/main.4e616ad0.chunk.css",
+    "static/js/main.80a12884.chunk.js"
+  ]
+}
