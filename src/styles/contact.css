@@ -13,19 +13,20 @@
     width: 50%;
     margin: auto;
     position: relative;
-    top: 45%;
+    top: 35%;
 }
 
 .contact-title{
     margin: 0;
     position: relative;
-    top: 40%; 
+    top: 30%; 
     color: turquoise;
-    font-size: 50px;   
+    font-size: 5vw;  
 }
 
 .contact-message {
     margin-bottom: 10%;
+    font-size: 1.5vw;
 }
 
 .contact-button {

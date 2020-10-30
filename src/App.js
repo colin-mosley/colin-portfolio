@@ -3,7 +3,7 @@ import About from './About'
 import NavBar from './NavBar'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
-import './styles/App.css';
+import './styles/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {

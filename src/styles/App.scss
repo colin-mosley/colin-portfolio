@@ -1,0 +1,224 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  overflow:hidden;
+  background: rgb(18, 18, 18);
+}
+
+.introduction {
+  font-size:4vw;
+  color:white;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.introduction h2 {
+  font-size: 4vw;
+}
+
+.title-name {
+  font-size: 6vw;
+}
+
+.home-button {
+  margin-top: 5%;
+  text-align: center;
+  opacity: 0;
+  animation: fade 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+
+#main-nav {
+  overflow: hidden;
+  background: rgb(50, 50, 50);
+  position: relative; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 1;
+  height: 65px;
+  width: 100%; /* Full width */
+}
+
+#main-nav .home-logo {
+  max-width: 0;
+  overflow: hidden;
+  color: white;
+  transition: all 0.5s;
+  font-size: 1.7vw;
+}
+
+.fixed-nav #main-nav .home-logo {
+  max-width: 500px;
+  font-weight: bolder;
+}
+
+.fixed-nav #main-nav {
+  position: fixed;
+}
+
+.aws-btn:focus {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.App a:link {
+  text-decoration: none;
+}
+
+#main-nav .nav-link {
+  color: turquoise;
+  font-size: 1.7vw;
+  padding: 25px;
+}
+
+#main-nav .nav-link:hover {
+  font-size: 1.9vw;
+  color:white;
+}
+
+#main-nav .resume-link {
+  text-decoration: none; 
+  border-style:solid;
+  border-radius: 14px;
+  border: 2px solid;
+  padding: 6px;
+  font-size: 1.7vw;
+  border-color: turquoise;
+  color: turquoise;
+}
+
+#main-nav .resume-link:hover {
+  background: rgb(60, 60, 60);
+  font-size: 1.7vw;
+}
+
+// TYPERWRITER EFFECT
+
+.typewriter {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    fade 3.5s; 
+}
+
+.typewriter-delay {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  opacity: 0;
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end), 
+    fade 3.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+@keyframes typing {
+  from { width: 0}
+  to { width: 100% }
+}
+@keyframes fade {
+  from { opacity: 0}
+  to { opacity: 1 }
+}
+
+//HOMEPAGE ANIMATION 
+
+.circle-container {
+  $particleNum: 200;
+  $particleColor: hsl(180, 100%, 80%);
+
+  position: absolute;
+  transform: translateY(-10vh);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    background-image: radial-gradient(
+      hsl(0, 0%, 77%),
+      hsl(0, 0%, 87%) 10%,
+      hsla(180, 100%, 80%, 0) 56%
+    );
+
+    animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+
+    @keyframes fade-frames {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.7;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes scale-frames {
+      0% {
+        transform: scale3d(0.4, 0.4, 1);
+      }
+
+      50% {
+        transform: scale3d(2.1, 2.1, 1);
+      }
+
+      100% {
+        transform: scale3d(0.4, 0.4, 1);
+      }
+    }
+  }
+
+  $particleBaseSize: 8;
+  
+  @for $i from 1 through $particleNum {
+    &:nth-child(#{$i}) {
+      $circleSize: random($particleBaseSize);
+      width: $circleSize + px;
+      height: $circleSize + px;
+
+      $startPositionY: random(100) + 100;
+      $framesName: "move-frames-" + $i;
+      $moveDuration: 30000 + random(9000) + ms;
+
+      animation-name: #{$framesName};
+      animation-duration: $moveDuration;
+      animation-delay: random(37000) + ms;
+
+      @keyframes #{$framesName} {
+        from {
+          transform: translate3d(
+            #{random(100) + vw},
+            #{30vh},
+            0
+          );
+        }
+
+        to {
+          transform: translate3d(
+            #{random(100) + vw},
+            #{- $startPositionY - random(30) + vh},
+            0
+          );
+        }
+      }
+
+      .circle {
+        animation-delay: random(4000) + ms;
+      }
+    }
+  }
+}

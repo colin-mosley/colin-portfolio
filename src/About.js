@@ -8,12 +8,12 @@ const About = () => (
     <div id="about">
         <div id="about-page" className="about-page">
             <div className="about-section-title">
-                <h1 className='about-title'>About</h1>
+                <h1 className='about-title turquoise'>About</h1>
                 <p></p>
             </div>
             <img id="image" src={picture} alt="My Picture" />
             <div className="about-information">
-                <h3 className="about-information-title">Software Engineer & Web Developer</h3>
+                <h3 className="about-information-title turquoise">Software Engineer & Web Developer</h3>
             </div>
             <div className="colin-information">
                 <span className="turquoise bold">Degree:</span> BS in Petroleum Engineering

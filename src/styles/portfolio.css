@@ -4,7 +4,6 @@
 }
 
 .portfolio-page {
-    margin-top: 5%;
     display: grid;
     grid-template-areas: 
     "title"
@@ -18,18 +17,19 @@
 .portfolio-title {
     grid-area: title;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 8%;
+    font-size: 3vw;
 }
 
 #portfolio .slider {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 8%;
 }
 
 .awssld {
     margin: auto;
     --slider-height-percentage: 60%;
-    width: 70%;
+    width: 72%;
     --organic-arrow-thickness: 7px;
     --organic-arrow-border-radius: 0px;
     --organic-arrow-height: 49px;
@@ -59,6 +59,12 @@
     background: rgb(35, 35, 35);
 }
 
+.awssld__content h2 {
+    margin-left: 4%;
+    margin-bottom: 2%;
+    font-size: 2.5vw;
+}
+
 .aws-btn {
 
     --button-default-height: 48px;
@@ -75,7 +81,12 @@
     --button-primary-border: 0px solid #ffffff;
     font-weight: bolder;
     }
-
+.project-image-container {
+    text-align: center;
+}
+.project-image {
+    width: 70%;
+}
 .demo-modal .modal-content .modal-body img {
     width: 100%;
 }
@@ -87,7 +98,7 @@
 .technologies {
     margin-top: 3%;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.4vw;
 }
 
 .modal-container {
