@@ -1,5 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
+import resume from './images/Resume.pdf'
 
 class NavBar extends React.Component {
 
@@ -28,12 +29,12 @@ class NavBar extends React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#about-page">My Profile</Nav.Link>
-                        <Nav.Link href="">Skills</Nav.Link>
-                        <Nav.Link href="#about">Resume</Nav.Link>
-                        <Nav.Link href="#about">Contact</Nav.Link>
+                        <Nav.Link href="#about-page">About</Nav.Link>
+                        <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
+                <Nav.Link className="resume-link" href={resume}>Resume</Nav.Link>
             </Navbar>
         );
     }

@@ -8,9 +8,13 @@
 
 .introduction {
   font-size: 75px;
-  color:white;
+  color:turquoise;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 15%;
+}
+
+.introduction h2 {
+  font-size: 45px;
 }
 
 .title-name {
@@ -24,14 +28,9 @@
   margin: 10px 0;
 }
 
-.see-work-button {
-  border-style:solid;
-  width: 10%;
-  margin: auto;
-  margin-top: 2%;
-  padding: 15px;
-  font-size: 25px;
-  color:white;
+.home-button {
+  margin-top: 5%;
+  text-align: center;
 }
 
 .see-work-button:hover {
@@ -58,6 +57,8 @@
 
 .fixed-nav #main-nav .home-logo {
   max-width: 500px;
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 .fixed-nav #main-nav {
@@ -70,4 +71,25 @@
 
 .bold {
   font-weight: bolder;
+}
+
+.App a:link {
+  text-decoration: none;
+}
+
+#main-nav .nav-link {
+  color: turquoise;
+  font-size: 22px;
+  padding: 25px;
+}
+
+.resume-link {
+  text-decoration: none; 
+  border-style:solid;
+  border-radius: 14px;
+  border: 2px solid;
+  padding: 8px;
+  font-size: 20px;
+  border-color: turquoise;
+  color: turquoise;
 }

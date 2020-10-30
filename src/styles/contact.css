@@ -1,0 +1,33 @@
+#contact {
+    text-align: center;
+    background: rgb(35, 35, 35);
+    color:white;
+}
+
+.contact-page {
+    position: relative;
+    height: 800px;
+}
+
+.contact-content{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 45%;
+}
+
+.contact-title{
+    margin: 0;
+    position: relative;
+    top: 40%; 
+    color: turquoise;
+    font-size: 50px;   
+}
+
+.contact-message {
+    margin-bottom: 10%;
+}
+
+.contact-button {
+    font-size: 20px;
+}

@@ -1,5 +1,5 @@
 #about {
-    background: rgb(18, 18, 18);
+    background: rgb(35, 35, 35);
     color:white;
   }
 
@@ -26,8 +26,9 @@
 
 #image {
     grid-area: b;
-    width: 400px;
+    width: 280px;
     height: 450px;
+    margin: auto;
 }
 
 .about-information {
@@ -39,8 +40,13 @@
     
 }
 
+.colin-information {
+    font-size: 18px;
+}
+
 .contact-information {
     grid-area: i;
+    margin: auto;
 }
 
 .skills {
@@ -57,11 +63,11 @@
     font-size: 21px;
 }
 
-.contact-information a:link {
-    text-decoration: none;
-}
-
 .about-title, .about-information-title, .turquoise {
     color: turquoise;
 }
 
+.email {
+    text-decoration: underline !important; 
+    color: white;
+}
