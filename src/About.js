@@ -29,7 +29,7 @@ const About = () => (
                 <span className="turquoise bold">City:</span> Austin, Texas
             </div>
             <p className="description">
-                Self-driven engineer with 3+ years of experience working in a fast-paced environment, executing company aligned goals through communication, collaboration, and critical thinking. Previously specializing in oil & gas field operations, I am looking to transition into the technology industry and pursue my passion for solving problems by joining a company that prioritizes client support, critical thinking, and communication to achieve technology goals.
+                Self-driven engineer with 3+ years of experience working in a fast-paced environment, executing company aligned goals through communication, collaboration, and critical thinking. Carrying over from my previous career in Petroleum Engineering, I have proven skills in on my feet problem solving, adapting to get the best results, and executing highly technical projects to high client satisfaction. Now as a Software Engineer, I take this same logical approach to creating clean, scalable code.
             </p>
             <div className="skills">
                 <h2 className="turquoise skills-title">Skills</h2>

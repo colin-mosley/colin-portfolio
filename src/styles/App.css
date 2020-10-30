@@ -7,14 +7,14 @@
 }
 
 .introduction {
-  font-size: 75px;
+  font-size:6vw;
   color:turquoise;
   text-align: center;
   margin-top: 15%;
 }
 
 .introduction h2 {
-  font-size: 45px;
+  font-size: 4vw;
 }
 
 .title-name {
@@ -39,7 +39,7 @@
 
 #main-nav {
   overflow: hidden;
-  background: rgb(40, 40, 40);
+  background: rgb(50, 50, 50);
   position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   z-index: 1;
@@ -52,12 +52,11 @@
   overflow: hidden;
   color: white;
   transition: all 0.5s;
-  font-size: 20px;
+  font-size: 1.7vw;
 }
 
 .fixed-nav #main-nav .home-logo {
   max-width: 500px;
-  font-size: 22px;
   font-weight: bolder;
 }
 
@@ -79,17 +78,27 @@
 
 #main-nav .nav-link {
   color: turquoise;
-  font-size: 22px;
+  font-size: 1.7vw;
   padding: 25px;
 }
 
-.resume-link {
+#main-nav .nav-link:hover {
+  font-size: 1.9vw;
+  color:white;
+}
+
+#main-nav .resume-link {
   text-decoration: none; 
   border-style:solid;
   border-radius: 14px;
   border: 2px solid;
-  padding: 8px;
-  font-size: 20px;
+  padding: 6px;
+  font-size: 1.7vw;
   border-color: turquoise;
   color: turquoise;
+}
+
+#main-nav .resume-link:hover {
+  background: rgb(60, 60, 60);
+  font-size: 1.7vw;
 }

@@ -13,7 +13,6 @@ export default class DemoModal extends React.Component {
         this.setState({ modal: !this.state.modal })
     }
 
-
     render() {
         return (
             <div className="modal-container">
@@ -27,16 +26,16 @@ export default class DemoModal extends React.Component {
                         <AwesomeButton
                             size='medium'
                             target='_blank'
-                            href={this.props.source}
+                            href={this.props.video}
                         >
-                            Source Code
+                            Full Video
                         </AwesomeButton>
                         <AwesomeButton
                             size='medium'
                             target='_blank'
-                            href={this.props.video}
+                            href={this.props.source}
                         >
-                            Full Video
+                            Source Code
                         </AwesomeButton>
                     </ModalFooter>
                 </Modal>
