@@ -1,9 +1,11 @@
 #about {
-    background: rgb(35, 35, 35);
+    /* background: rgb(35, 35, 35); */
+    background: rgb(18, 18, 18);
     color:white;
   }
 
 #about-page {
+    height: 110vh;
     display: grid;
     grid-template-areas: 
     "a a a"
@@ -13,8 +15,8 @@
     "b h h"
     "b i i"
     "j j j";
-    grid-template-rows: 150px 75px 50px 50px 200px 75px 150px;
-    /* grid-template-rows: 0.2fr 0.1fr 0.066fr 0.066fr 0.275fr 0.1fr 0.2fr; */
+    /* grid-template-rows: 150px 75px 50px 50px 200px 75px 200px; */
+    grid-template-rows: 0.2fr 0.1fr 0.0625fr 0.0625fr 0.275fr 0.1fr 0.2fr;
     grid-template-columns: 0.4fr 0.3fr 0.3fr;             
     width: 80vw;
     margin: auto;
@@ -31,7 +33,7 @@
 #image {
     grid-area: b;
     width: 15vw;
-    height: 60vh;
+    height: 100%;
     margin: auto;
 }
 
@@ -61,6 +63,7 @@
     grid-area: j;
     text-align: center;
     margin: auto;
+    margin-top: 7%;
 }
 
 .skills-title {

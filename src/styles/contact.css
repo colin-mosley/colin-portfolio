@@ -1,12 +1,12 @@
 #contact {
     text-align: center;
-    background: rgb(35, 35, 35);
+    background: rgb(18, 18, 18);
     color:white;
 }
 
 .contact-page {
     position: relative;
-    height: 800px;
+    height: 110vh;
 }
 
 .contact-content{

@@ -35,7 +35,7 @@
   position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   z-index: 1;
-  height: 65px;
+  height: 8vh;
   width: 100%; /* Full width */
 }
 
@@ -43,13 +43,17 @@
   max-width: 0;
   overflow: hidden;
   color: white;
-  transition: all 0.5s;
+  transition: all 0.3s;
   font-size: 1.7vw;
 }
 
 .fixed-nav #main-nav .home-logo {
   max-width: 500px;
   font-weight: bolder;
+}
+
+.fixed-nav #main-nav .home-logo:hover {
+  font-size: 1.9vw;
 }
 
 .fixed-nav #main-nav {
@@ -77,6 +81,7 @@
 #main-nav .nav-link:hover {
   font-size: 1.9vw;
   color:white;
+  transition: all 0.3s;
 }
 
 #main-nav .resume-link {
