@@ -16,20 +16,20 @@
 
 .portfolio-title {
     grid-area: title;
-    margin-top: 5%;
-    margin-left: 8%;
+    margin-top: 8vh;
+    margin-left: 10vw;
     font-size: 3vw;
 }
 
 #portfolio .slider {
-    margin-top: 2%;
-    margin-bottom: 8%;
+    margin-top: 4vh;
+    margin-bottom: 10vh;
 }
 
 .awssld {
     margin: auto;
     --slider-height-percentage: 60%;
-    width: 72%;
+    width: 70vw;
     --organic-arrow-thickness: 7px;
     --organic-arrow-border-radius: 0px;
     --organic-arrow-height: 49px;
@@ -60,15 +60,14 @@
 }
 
 .awssld__content h2 {
-    margin-left: 4%;
-    margin-bottom: 2%;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
     font-size: 2.5vw;
 }
 
 .aws-btn {
-
-    --button-default-height: 48px;
-    --button-default-font-size: 14px;
+    --button-default-height: 40px;
+    --button-default-font-size: 1.5vw;
     --button-default-border-radius: 6px;
     --button-horizontal-padding: 20px;
     --button-raise-level: 5px;
@@ -85,18 +84,14 @@
     text-align: center;
 }
 .project-image {
-    width: 70%;
+    width: 50vw;
 }
 .demo-modal .modal-content .modal-body img {
     width: 100%;
 }
 
-.portfolio-page .mosbros-casino .portfolio-buttons {
-    display: inline-block;
-}
-
 .technologies {
-    margin-top: 3%;
+    margin-top: 2vh;
     text-align: center;
     font-size: 1.4vw;
 }
@@ -106,7 +101,7 @@
 }
 
 .modal-button {
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .modal .modal-content {
@@ -125,7 +120,7 @@
 .modal-content .modal-footer a:link {
     text-decoration: none;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 1vw;
   }
 
 .modal-content span {

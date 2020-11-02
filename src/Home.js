@@ -2,7 +2,7 @@ import React from 'react';
 import { AwesomeButton } from 'react-awesome-button';
 
 const Home = () => (
-    <div className="home">
+    <div id="home" className="home">
         <div className="introduction">
             <h2 className="typewriter">
                 Hello, I'm{' '}

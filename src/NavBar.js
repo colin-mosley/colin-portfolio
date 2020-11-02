@@ -25,7 +25,7 @@ class NavBar extends React.Component {
     render() {
         return (
             <Navbar id="main-nav" expand="lg" >
-                <Navbar.Brand className="home-logo" href="/">Home</Navbar.Brand>
+                <Navbar.Brand className="home-logo" href="/portfolio-website">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">

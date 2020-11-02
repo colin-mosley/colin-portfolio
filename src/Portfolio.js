@@ -13,13 +13,18 @@ import casinogif from './images/casino.gif'
 import millionaire from './images/millionaire.png'
 import millionairegif from './images/millionaire.gif'
 import DemoModal from './DemoModal.js'
+import Aos from 'aos';
 
 class Portfolio extends React.Component {
+
+    componentDidMount() {
+        Aos.init({ duration: 3000 })
+    }
 
     render() {
         return (
             <div id="portfolio">
-                <div className="portfolio-page">
+                <div data-aos='fade-up' className="portfolio-page">
                     <h1 className="portfolio-title turquoise">Portfolio</h1>              
                     <AwesomeSlider className="slider" animation="cubeAnimation">
                         <div className="demolition-nutrition">

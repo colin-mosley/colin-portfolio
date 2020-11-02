@@ -4,7 +4,6 @@
   }
 
 #about-page {
-    margin-top: 5%;
     display: grid;
     grid-template-areas: 
     "a a a"
@@ -15,12 +14,13 @@
     "b i i"
     "j j j";
     grid-template-rows: 150px 75px 50px 50px 200px 75px 150px;
+    /* grid-template-rows: 0.2fr 0.1fr 0.066fr 0.066fr 0.275fr 0.1fr 0.2fr; */
     grid-template-columns: 0.4fr 0.3fr 0.3fr;             
-    width: 80%;
+    width: 80vw;
     margin: auto;
 }
 .about-section-title {
-    margin-top: 6%;
+    margin-top: 10vh;
     grid-area: a;
 }
 
@@ -30,8 +30,8 @@
 
 #image {
     grid-area: b;
-    width: 45%;
-    height: 100%;
+    width: 15vw;
+    height: 60vh;
     margin: auto;
 }
 
@@ -39,13 +39,17 @@
     grid-area: c;
 }
 
+.about-information-title {
+    font-size: 2vw;
+}
+
 .description {
     grid-area: h;
-    
+    font-size: 1.2vw;
 }
 
 .colin-information {
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 .contact-information {

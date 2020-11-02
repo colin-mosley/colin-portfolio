@@ -5,10 +5,11 @@ import Portfolio from './Portfolio'
 import Contact from './Contact'
 import './styles/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'aos/dist/aos.css'
 
 function App() {
   return (
-    <div className="App">
+    <div id="App" className="App">
       <Home />
       <NavBar />
       <About />
