@@ -35,7 +35,7 @@
     --organic-arrow-border-radius: 0px;
     --organic-arrow-height: 49px;
     --organic-arrow-color: turquoise;
-    --control-button-width: 7%;
+    --control-button-width: 6%;
     --control-button-height: 25%;
     --control-button-background: transparent;
     --control-bullet-color: turquoise;
@@ -49,7 +49,7 @@
 }
 
 .aws-sld {
-    --cube-animation-duration: 675ms;
+    --cube-animation-duration: 700ms;
     --cube-animation-perspective: 1800px;
     --cube-animation-ease-in: cubic-bezier(0.8, 0, 1, 0.8);
     --cube-animation-ease-out: cubic-bezier(0, 0.2, 0.2, 1);
